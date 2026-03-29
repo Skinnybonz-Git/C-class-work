@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Stevi\\Desktop\\C#\\Project4\\Project4\\Project4.csproj": {}
+    "C:\\Users\\Stevi\\Downloads\\C-class-work-main (1)\\C-class-work-main\\Project4\\Project4\\Project4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stevi\\Desktop\\C#\\Project4\\Project4\\Project4.csproj": {
+    "C:\\Users\\Stevi\\Downloads\\C-class-work-main (1)\\C-class-work-main\\Project4\\Project4\\Project4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stevi\\Desktop\\C#\\Project4\\Project4\\Project4.csproj",
+        "projectUniqueName": "C:\\Users\\Stevi\\Downloads\\C-class-work-main (1)\\C-class-work-main\\Project4\\Project4\\Project4.csproj",
         "projectName": "Project4",
-        "projectPath": "C:\\Users\\Stevi\\Desktop\\C#\\Project4\\Project4\\Project4.csproj",
+        "projectPath": "C:\\Users\\Stevi\\Downloads\\C-class-work-main (1)\\C-class-work-main\\Project4\\Project4\\Project4.csproj",
         "packagesPath": "C:\\Users\\Stevi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stevi\\Desktop\\C#\\Project4\\Project4\\obj\\",
+        "outputPath": "C:\\Users\\Stevi\\Downloads\\C-class-work-main (1)\\C-class-work-main\\Project4\\Project4\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stevi\\AppData\\Roaming\\NuGet\\NuGet.Config",
