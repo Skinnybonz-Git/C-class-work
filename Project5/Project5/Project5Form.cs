@@ -154,9 +154,11 @@ namespace Project5
             radioSmall.Checked = true;
             lstDrinkType.ClearSelected();
             chkEmployee.Checked = false;
-
+            
             txtQuantity.Focus();
             comboFlavor.SelectedIndex = -1; // Unselect combo box
+            lstDrinkType.Items.Clear();
+
         }
 
         // Button click: Exit
@@ -169,12 +171,12 @@ namespace Project5
         {
 
         }
-
         //Clear Drink Button
         private void btnClearDrink_Click(object sender, EventArgs e)
         {
             lstDrinkType.Items.Clear();
         }
+
 
         //Add Coffee Flavor Button
         private void btnAdd_Click(object sender, EventArgs e)

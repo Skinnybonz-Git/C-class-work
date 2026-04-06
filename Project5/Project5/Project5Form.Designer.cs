@@ -64,6 +64,7 @@
             toolCalculate = new ToolTip(components);
             toolMessage = new ToolTip(components);
             toolCustomerName = new ToolTip(components);
+            toolEmployee = new ToolTip(components);
             grpSize.SuspendLayout();
             grpOrdTotal.SuspendLayout();
             SuspendLayout();
@@ -241,6 +242,7 @@
             chkEmployee.Size = new Size(124, 29);
             chkEmployee.TabIndex = 5;
             chkEmployee.Text = "Employee?";
+            toolEmployee.SetToolTip(chkEmployee, "If you are an employee click here for a discount.\r\nIf your not we'll know.\r\n");
             chkEmployee.UseVisualStyleBackColor = true;
             // 
             // lstDrinkType
@@ -308,6 +310,7 @@
             comboFlavor.Location = new Point(313, 87);
             comboFlavor.Name = "comboFlavor";
             comboFlavor.Size = new Size(182, 33);
+            comboFlavor.Sorted = true;
             comboFlavor.TabIndex = 1;
             // 
             // btnAdd
@@ -418,5 +421,6 @@
         private ToolTip toolClearDrink;
         private ToolTip toolCalculate;
         private ToolTip toolMessage;
+        private ToolTip toolEmployee;
     }
 }
