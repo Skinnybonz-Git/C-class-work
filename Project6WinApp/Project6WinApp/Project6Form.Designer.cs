@@ -86,6 +86,7 @@
             // cmbEntryDay
             // 
             cmbEntryDay.FormattingEnabled = true;
+            cmbEntryDay.Items.AddRange(new object[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" });
             cmbEntryDay.Location = new Point(40, 110);
             cmbEntryDay.Name = "cmbEntryDay";
             cmbEntryDay.Size = new Size(180, 33);
@@ -143,6 +144,7 @@
             // cmbLookupDay
             // 
             cmbLookupDay.FormattingEnabled = true;
+            cmbLookupDay.Items.AddRange(new object[] { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" });
             cmbLookupDay.Location = new Point(40, 98);
             cmbLookupDay.Name = "cmbLookupDay";
             cmbLookupDay.Size = new Size(180, 33);

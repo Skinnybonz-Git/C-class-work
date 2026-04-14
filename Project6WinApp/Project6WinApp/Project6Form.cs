@@ -13,19 +13,8 @@ namespace Project6WinApp
             InitializeComponent();
             this.CancelButton = btnExit;
 
-            LoadDays();
+            
         }
-        private void LoadDays()
-        {
-            string[] days = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
-
-            cmbEntryDay.Items.AddRange(days);
-            cmbLookupDay.Items.AddRange(days);
-        }
-
-        // -------------------------------
-        // SAVE SALES
-        // -------------------------------
         private void btnSaveSales_Click(object sender, EventArgs e)
         {
             if (cmbEntryDay.SelectedIndex == -1)
@@ -61,9 +50,7 @@ namespace Project6WinApp
             cmbEntryDay.SelectedIndex = -1;
         }
 
-        // -------------------------------
-        // LOOKUP SALES
-        // -------------------------------
+        // Lookup Sales
         private void btnLookupSales_Click(object sender, EventArgs e)
         {
             if (cmbLookupDay.SelectedIndex == -1)
@@ -84,9 +71,7 @@ namespace Project6WinApp
             cmbLookupDay.SelectedIndex = -1;
         }
 
-        // -------------------------------
-        // CALCULATIONS
-        // -------------------------------
+        // Calculations
         private double CalculateDrinkTotal()
         {
             double total = 0;
@@ -107,9 +92,7 @@ namespace Project6WinApp
             return total;
         }
 
-        // -------------------------------
-        // DISPLAY REPORT
-        // -------------------------------
+        // Display Report
         private void btnDisplayAmount_Click(object sender, EventArgs e)
         {
             if (rbWeeklyDrink.Checked)
@@ -136,9 +119,8 @@ namespace Project6WinApp
             }
         }
 
-        // -------------------------------
-        // CLEAR ALL SALES
-        // -------------------------------
+
+        // Clear All Sales
         private void btnClearAllSales_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < drinkSales.Length; i++)
@@ -150,9 +132,7 @@ namespace Project6WinApp
             MessageBox.Show("All sales have been cleared.");
         }
 
-        // -------------------------------
-        // EXIT
-        // -------------------------------
+        // Exit
         private void btnExit_Click(object sender, EventArgs e)
         {
             this.Close();
