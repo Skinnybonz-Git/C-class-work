@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             grpSalesEntry = new GroupBox();
-            grpLookSales = new GroupBox();
+            grpLookupSales = new GroupBox();
             grpSalesReport = new GroupBox();
             lblTitle = new Label();
             lblDayWeek1 = new Label();
@@ -37,19 +37,19 @@
             lblFoodSales = new Label();
             lblDayWeek2 = new Label();
             btnSaveSales = new Button();
-            btnLookSales = new Button();
+            btnLookupSales = new Button();
             btnDisplayAmount = new Button();
-            btnClearSales = new Button();
+            btnClearAllSales = new Button();
             btnExit = new Button();
-            radioCalWeekDrink = new RadioButton();
-            radioCalWeekFood = new RadioButton();
-            radioCalOverWeek = new RadioButton();
-            comboDayWeek1 = new ComboBox();
-            comboDayWeek2 = new ComboBox();
+            rbWeeklyDrink = new RadioButton();
+            rbWeeklyFood = new RadioButton();
+            rbWeeklyOverall = new RadioButton();
+            cmbEntryDay = new ComboBox();
+            cmbLookupDay = new ComboBox();
             txtDrinkSales = new TextBox();
             txtFoodSales = new TextBox();
             grpSalesEntry.SuspendLayout();
-            grpLookSales.SuspendLayout();
+            grpLookupSales.SuspendLayout();
             grpSalesReport.SuspendLayout();
             SuspendLayout();
             // 
@@ -57,7 +57,7 @@
             // 
             grpSalesEntry.Controls.Add(txtFoodSales);
             grpSalesEntry.Controls.Add(txtDrinkSales);
-            grpSalesEntry.Controls.Add(comboDayWeek1);
+            grpSalesEntry.Controls.Add(cmbEntryDay);
             grpSalesEntry.Controls.Add(btnSaveSales);
             grpSalesEntry.Controls.Add(lblFoodSales);
             grpSalesEntry.Controls.Add(lblDrinkSales);
@@ -69,23 +69,23 @@
             grpSalesEntry.TabStop = false;
             grpSalesEntry.Text = "Sales Entry";
             // 
-            // grpLookSales
+            // grpLookupSales
             // 
-            grpLookSales.Controls.Add(comboDayWeek2);
-            grpLookSales.Controls.Add(btnLookSales);
-            grpLookSales.Controls.Add(lblDayWeek2);
-            grpLookSales.Location = new Point(27, 522);
-            grpLookSales.Name = "grpLookSales";
-            grpLookSales.Size = new Size(285, 278);
-            grpLookSales.TabIndex = 1;
-            grpLookSales.TabStop = false;
-            grpLookSales.Text = "Look Up Sales";
+            grpLookupSales.Controls.Add(cmbLookupDay);
+            grpLookupSales.Controls.Add(btnLookupSales);
+            grpLookupSales.Controls.Add(lblDayWeek2);
+            grpLookupSales.Location = new Point(27, 522);
+            grpLookupSales.Name = "grpLookupSales";
+            grpLookupSales.Size = new Size(285, 278);
+            grpLookupSales.TabIndex = 1;
+            grpLookupSales.TabStop = false;
+            grpLookupSales.Text = "Look Up Sales";
             // 
             // grpSalesReport
             // 
-            grpSalesReport.Controls.Add(radioCalOverWeek);
-            grpSalesReport.Controls.Add(radioCalWeekFood);
-            grpSalesReport.Controls.Add(radioCalWeekDrink);
+            grpSalesReport.Controls.Add(rbWeeklyOverall);
+            grpSalesReport.Controls.Add(rbWeeklyFood);
+            grpSalesReport.Controls.Add(rbWeeklyDrink);
             grpSalesReport.Controls.Add(btnDisplayAmount);
             grpSalesReport.Location = new Point(412, 522);
             grpSalesReport.Name = "grpSalesReport";
@@ -149,14 +149,14 @@
             btnSaveSales.Text = "Save Sales Data";
             btnSaveSales.UseVisualStyleBackColor = true;
             // 
-            // btnLookSales
+            // btnLookupSales
             // 
-            btnLookSales.Location = new Point(69, 176);
-            btnLookSales.Name = "btnLookSales";
-            btnLookSales.Size = new Size(135, 77);
-            btnLookSales.TabIndex = 5;
-            btnLookSales.Text = "Look Up Sales";
-            btnLookSales.UseVisualStyleBackColor = true;
+            btnLookupSales.Location = new Point(69, 176);
+            btnLookupSales.Name = "btnLookupSales";
+            btnLookupSales.Size = new Size(135, 77);
+            btnLookupSales.TabIndex = 5;
+            btnLookupSales.Text = "Look Up Sales";
+            btnLookupSales.UseVisualStyleBackColor = true;
             // 
             // btnDisplayAmount
             // 
@@ -167,14 +167,14 @@
             btnDisplayAmount.Text = "Display Amount";
             btnDisplayAmount.UseVisualStyleBackColor = true;
             // 
-            // btnClearSales
+            // btnClearAllSales
             // 
-            btnClearSales.Location = new Point(96, 829);
-            btnClearSales.Name = "btnClearSales";
-            btnClearSales.Size = new Size(159, 42);
-            btnClearSales.TabIndex = 4;
-            btnClearSales.Text = "Clear All Sales";
-            btnClearSales.UseVisualStyleBackColor = true;
+            btnClearAllSales.Location = new Point(96, 829);
+            btnClearAllSales.Name = "btnClearAllSales";
+            btnClearAllSales.Size = new Size(159, 42);
+            btnClearAllSales.TabIndex = 4;
+            btnClearAllSales.Text = "Clear All Sales";
+            btnClearAllSales.UseVisualStyleBackColor = true;
             // 
             // btnExit
             // 
@@ -185,54 +185,54 @@
             btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = true;
             // 
-            // radioCalWeekDrink
+            // rbWeeklyDrink
             // 
-            radioCalWeekDrink.AutoSize = true;
-            radioCalWeekDrink.Location = new Point(83, 45);
-            radioCalWeekDrink.Name = "radioCalWeekDrink";
-            radioCalWeekDrink.Size = new Size(260, 29);
-            radioCalWeekDrink.TabIndex = 2;
-            radioCalWeekDrink.TabStop = true;
-            radioCalWeekDrink.Text = "Calculate Weekly Drink Sales";
-            radioCalWeekDrink.UseVisualStyleBackColor = true;
+            rbWeeklyDrink.AutoSize = true;
+            rbWeeklyDrink.Location = new Point(83, 45);
+            rbWeeklyDrink.Name = "rbWeeklyDrink";
+            rbWeeklyDrink.Size = new Size(260, 29);
+            rbWeeklyDrink.TabIndex = 2;
+            rbWeeklyDrink.TabStop = true;
+            rbWeeklyDrink.Text = "Calculate Weekly Drink Sales";
+            rbWeeklyDrink.UseVisualStyleBackColor = true;
             // 
-            // radioCalWeekFood
+            // rbWeeklyFood
             // 
-            radioCalWeekFood.AutoSize = true;
-            radioCalWeekFood.Location = new Point(83, 98);
-            radioCalWeekFood.Name = "radioCalWeekFood";
-            radioCalWeekFood.Size = new Size(260, 29);
-            radioCalWeekFood.TabIndex = 3;
-            radioCalWeekFood.TabStop = true;
-            radioCalWeekFood.Text = "Calculate Weekly Food Sales";
-            radioCalWeekFood.UseVisualStyleBackColor = true;
+            rbWeeklyFood.AutoSize = true;
+            rbWeeklyFood.Location = new Point(83, 98);
+            rbWeeklyFood.Name = "rbWeeklyFood";
+            rbWeeklyFood.Size = new Size(260, 29);
+            rbWeeklyFood.TabIndex = 3;
+            rbWeeklyFood.TabStop = true;
+            rbWeeklyFood.Text = "Calculate Weekly Food Sales";
+            rbWeeklyFood.UseVisualStyleBackColor = true;
             // 
-            // radioCalOverWeek
+            // rbWeeklyOverall
             // 
-            radioCalOverWeek.AutoSize = true;
-            radioCalOverWeek.Location = new Point(83, 150);
-            radioCalOverWeek.Name = "radioCalOverWeek";
-            radioCalOverWeek.Size = new Size(273, 29);
-            radioCalOverWeek.TabIndex = 4;
-            radioCalOverWeek.TabStop = true;
-            radioCalOverWeek.Text = "Calculate Overall Weekly Sales";
-            radioCalOverWeek.UseVisualStyleBackColor = true;
+            rbWeeklyOverall.AutoSize = true;
+            rbWeeklyOverall.Location = new Point(83, 150);
+            rbWeeklyOverall.Name = "rbWeeklyOverall";
+            rbWeeklyOverall.Size = new Size(273, 29);
+            rbWeeklyOverall.TabIndex = 4;
+            rbWeeklyOverall.TabStop = true;
+            rbWeeklyOverall.Text = "Calculate Overall Weekly Sales";
+            rbWeeklyOverall.UseVisualStyleBackColor = true;
             // 
-            // comboDayWeek1
+            // cmbEntryDay
             // 
-            comboDayWeek1.FormattingEnabled = true;
-            comboDayWeek1.Location = new Point(40, 110);
-            comboDayWeek1.Name = "comboDayWeek1";
-            comboDayWeek1.Size = new Size(180, 33);
-            comboDayWeek1.TabIndex = 7;
+            cmbEntryDay.FormattingEnabled = true;
+            cmbEntryDay.Location = new Point(40, 110);
+            cmbEntryDay.Name = "cmbEntryDay";
+            cmbEntryDay.Size = new Size(180, 33);
+            cmbEntryDay.TabIndex = 7;
             // 
-            // comboDayWeek2
+            // cmbLookupDay
             // 
-            comboDayWeek2.FormattingEnabled = true;
-            comboDayWeek2.Location = new Point(40, 98);
-            comboDayWeek2.Name = "comboDayWeek2";
-            comboDayWeek2.Size = new Size(180, 33);
-            comboDayWeek2.TabIndex = 8;
+            cmbLookupDay.FormattingEnabled = true;
+            cmbLookupDay.Location = new Point(40, 98);
+            cmbLookupDay.Name = "cmbLookupDay";
+            cmbLookupDay.Size = new Size(180, 33);
+            cmbLookupDay.TabIndex = 8;
             // 
             // txtDrinkSales
             // 
@@ -254,17 +254,17 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(849, 896);
             Controls.Add(btnExit);
-            Controls.Add(btnClearSales);
+            Controls.Add(btnClearAllSales);
             Controls.Add(lblTitle);
             Controls.Add(grpSalesReport);
-            Controls.Add(grpLookSales);
+            Controls.Add(grpLookupSales);
             Controls.Add(grpSalesEntry);
             Name = "Project6Form";
             Text = "Stephen Burns";
             grpSalesEntry.ResumeLayout(false);
             grpSalesEntry.PerformLayout();
-            grpLookSales.ResumeLayout(false);
-            grpLookSales.PerformLayout();
+            grpLookupSales.ResumeLayout(false);
+            grpLookupSales.PerformLayout();
             grpSalesReport.ResumeLayout(false);
             grpSalesReport.PerformLayout();
             ResumeLayout(false);
@@ -274,22 +274,22 @@
         #endregion
 
         private GroupBox grpSalesEntry;
-        private GroupBox grpLookSales;
+        private GroupBox grpLookupSales;
         private GroupBox grpSalesReport;
         private Label lblTitle;
-        private ComboBox comboDayWeek1;
+        private ComboBox cmbEntryDay;
         private Button btnSaveSales;
         private Label lblFoodSales;
         private Label lblDrinkSales;
         private Label lblDayWeek1;
-        private ComboBox comboDayWeek2;
-        private Button btnLookSales;
+        private ComboBox cmbLookupDay;
+        private Button btnLookupSales;
         private Label lblDayWeek2;
-        private RadioButton radioCalOverWeek;
-        private RadioButton radioCalWeekFood;
-        private RadioButton radioCalWeekDrink;
+        private RadioButton rbWeeklyOverall;
+        private RadioButton rbWeeklyFood;
+        private RadioButton rbWeeklyDrink;
         private Button btnDisplayAmount;
-        private Button btnClearSales;
+        private Button btnClearAllSales;
         private Button btnExit;
         private TextBox txtFoodSales;
         private TextBox txtDrinkSales;
