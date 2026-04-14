@@ -1,0 +1,16 @@
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\bin\Debug\net8.0-windows\Project6WinApp.exe
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\bin\Debug\net8.0-windows\Project6WinApp.deps.json
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\bin\Debug\net8.0-windows\Project6WinApp.runtimeconfig.json
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\bin\Debug\net8.0-windows\Project6WinApp.dll
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\bin\Debug\net8.0-windows\Project6WinApp.pdb
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\Project6WinApp.Project6Form.resources
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\Project6WinApp.csproj.GenerateResource.cache
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\Project6WinApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\Project6WinApp.AssemblyInfoInputs.cache
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\Project6WinApp.AssemblyInfo.cs
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\Project6WinApp.csproj.CoreCompileInputs.cache
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\Project6WinApp.dll
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\refint\Project6WinApp.dll
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\Project6WinApp.pdb
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\Project6WinApp.genruntimeconfig.cache
+C:\Users\Stevi\Desktop\C#\Project6WinApp\Project6WinApp\obj\Debug\net8.0-windows\ref\Project6WinApp.dll
