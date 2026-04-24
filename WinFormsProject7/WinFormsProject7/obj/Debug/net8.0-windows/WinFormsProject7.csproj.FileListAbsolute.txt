@@ -1,0 +1,16 @@
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\WinFormsProject7.csproj.GenerateResource.cache
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\WinFormsProject7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\WinFormsProject7.AssemblyInfoInputs.cache
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\WinFormsProject7.AssemblyInfo.cs
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\WinFormsProject7.csproj.CoreCompileInputs.cache
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\bin\Debug\net8.0-windows\WinFormsProject7.exe
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\bin\Debug\net8.0-windows\WinFormsProject7.deps.json
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\bin\Debug\net8.0-windows\WinFormsProject7.runtimeconfig.json
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\bin\Debug\net8.0-windows\WinFormsProject7.dll
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\bin\Debug\net8.0-windows\WinFormsProject7.pdb
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\WinFormsProject7.dll
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\refint\WinFormsProject7.dll
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\WinFormsProject7.pdb
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\WinFormsProject7.genruntimeconfig.cache
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\ref\WinFormsProject7.dll
+C:\Users\Stevi\Desktop\C#\WinFormsProject7\WinFormsProject7\obj\Debug\net8.0-windows\WinFormsProject7.Project7Form.resources
