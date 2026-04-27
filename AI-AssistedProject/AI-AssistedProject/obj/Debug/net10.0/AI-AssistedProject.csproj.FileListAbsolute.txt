@@ -1,0 +1,14 @@
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\obj\Debug\net10.0\AI-AssistedProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\obj\Debug\net10.0\AI-AssistedProject.AssemblyInfoInputs.cache
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\obj\Debug\net10.0\AI-AssistedProject.AssemblyInfo.cs
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\obj\Debug\net10.0\AI-AssistedProject.csproj.CoreCompileInputs.cache
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\bin\Debug\net10.0\AI-AssistedProject.exe
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\bin\Debug\net10.0\AI-AssistedProject.deps.json
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\bin\Debug\net10.0\AI-AssistedProject.runtimeconfig.json
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\bin\Debug\net10.0\AI-AssistedProject.dll
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\bin\Debug\net10.0\AI-AssistedProject.pdb
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\obj\Debug\net10.0\AI-AssistedProject.dll
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\obj\Debug\net10.0\refint\AI-AssistedProject.dll
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\obj\Debug\net10.0\AI-AssistedProject.pdb
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\obj\Debug\net10.0\AI-AssistedProject.genruntimeconfig.cache
+C:\Users\Stevi\Desktop\C#\AI-AssistedProject\AI-AssistedProject\obj\Debug\net10.0\ref\AI-AssistedProject.dll
