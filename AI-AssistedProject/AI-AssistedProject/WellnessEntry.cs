@@ -8,6 +8,7 @@ namespace AI_AssistedProject
 {
     public class WellnessEntry
     {
+        // 🔹 Properties
         public DateTime Date { get; set; }
         public string Mood { get; set; }
         public int ScreenTimeHours { get; set; }
@@ -22,7 +23,10 @@ namespace AI_AssistedProject
         {
             WellnessEntry entry = new WellnessEntry();
 
+            // ✅ Automatically set date + time
             entry.Date = DateTime.Now;
+
+            Console.WriteLine($"Entry Date: {entry.Date.ToShortDateString()} {entry.Date.ToShortTimeString()}");
 
             Console.Write("Mood: ");
             entry.Mood = Console.ReadLine();
@@ -32,7 +36,8 @@ namespace AI_AssistedProject
             entry.ScreenTimeHours = screen;
 
             Console.Write("Exercise (minutes): ");
-            entry.ExerciseMinutes = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine(), out int exercise);
+            entry.ExerciseMinutes = exercise;
 
             Console.Write("Notes: ");
             entry.Notes = Console.ReadLine();
@@ -51,7 +56,11 @@ namespace AI_AssistedProject
             {
                 foreach (var e in entries)
                 {
-                    writer.WriteLine($"{e.Date} | Mood: {e.Mood} | Screen: {e.ScreenTimeHours} hrs | Exercise: {e.ExerciseMinutes} mins | Notes: {e.Notes}");
+                    writer.WriteLine(
+                        $"{e.Date.ToShortDateString()} {e.Date.ToShortTimeString()} | " +
+                        $"Mood: {e.Mood} | Screen: {e.ScreenTimeHours} hrs | " +
+                        $"Exercise: {e.ExerciseMinutes} mins | Notes: {e.Notes}"
+                    );
                 }
             }
 
@@ -61,7 +70,9 @@ namespace AI_AssistedProject
         // 🔹 Weekly Summary
         public static void WeeklySummary()
         {
-            var last7Days = entries.Where(e => e.Date >= DateTime.Now.AddDays(-7)).ToList();
+            var last7Days = entries
+                .Where(e => e.Date >= DateTime.Now.AddDays(-7))
+                .ToList();
 
             if (last7Days.Count == 0)
             {
@@ -78,6 +89,7 @@ namespace AI_AssistedProject
             Console.WriteLine($"Average Exercise: {avgExercise:F2} mins");
 
             var moodGroups = last7Days.GroupBy(e => e.Mood);
+
             Console.WriteLine("Mood Breakdown:");
             foreach (var group in moodGroups)
             {
